@@ -10,8 +10,8 @@ body{
 }
 .contenedor{
   display: grid;
-  grid-template-columns: 80px 80px;
-    grid-template-rows: 100px 50px;
+  grid-template-columns:150px 150px;
+    grid-template-rows: 100px 50px 350px;
     column-gap: 10px;
     row-gap: 100px;
     place-content: center;
@@ -24,7 +24,12 @@ body{
     grid-column: span 2;
     
 }
-
+.jugados{
+  grid-column: span 2;
+  color: #cc5757;
+  overflow-wrap: break-word;
+  font-size: 20px;
+}
 .reiniciar{
     grid-column-start: 2;
 }
